@@ -1,4 +1,4 @@
-# numberroduction
+# Introduction
 This is public user documentation for V2.0 of Orbits Lua Engine. This lists everything you would need to know to start creating scripts. 
 `last updated 11/14/21`
 
@@ -584,16 +584,16 @@ boolean           decor_set_time(Entity entity, string name, number timeStamp)
 ```
  __Interior Functions__
 ```
-Any               get_numbererior_from_entity(Entity entity)
-Any               get_numbererior_at_coords_with_type(number x, number y, number z, string numbereriorType)
-nill              disable_numbererior_prop(Interior interior, boolean toggle)
-nill              refresh_numbererior(Interior interior)
+Any               get_interior_from_entity(Entity entity)
+Any               get_interior_at_coords_with_type(number x, number y, number z, string interiorType)
+nill              disable_interior_prop(Interior interior, boolean toggle)
+nill              refresh_interior(Interior interior)
 ```
  __Water Functions__
 ```
-number            get_waves_numberensity()
-nill              set_waves_numberensity(number numberensity)
-nill              reset_waves_numberensity()
+number            get_waves_intensity()
+nill              set_waves_intensity(number intensity)
+nill              reset_waves_intensity()
 ```
  __Stat Functions__
 ```
